@@ -32,7 +32,6 @@ def getMSG(msg):
     print(msg['FromUserName'])
     print(msg['Text'])
     print(msg['MsgType'])
-    # if msg['FromUserName'] == '@226651aee0951b7cd0d6ca6d6029073e21c39a8616263b50976c035fc1e1f90a':
     if msg['FromUserName'] != None:
         if msg['MsgType'] == 34: #语音消息
             print(msg['Text'](msg['FileName']))
