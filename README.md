@@ -1,7 +1,7 @@
 # AutoResponseRobot
 ## 环境
 
-* python 3.6
+* python 3.x
 * ffmpeg：用于音频解析，在官网上下载然后配置系统环境变量
 * 使用的库文件：itchat、pydub、baidu-aip， 可以通过pip进行安装
 
