@@ -6,9 +6,9 @@ from pydub import AudioSegment
 # from io import BytesIO
 from aip import AipSpeech
 
-APP_ID = '11038387'
-API_KEY = 'zNKTZGenBcGnDT2GI2Ow7zKl'
-SECRET_KEY = 'abaa0e7b749856f7a1fc05555a49b797'
+APP_ID = '秘密'
+API_KEY = '秘密'
+SECRET_KEY = '秘密'
 
 aipSpeech = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 
@@ -16,7 +16,7 @@ aipSpeech = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 def get_response(msg):
     apiUrl = 'http://www.tuling123.com/openapi/api'
     data = {
-        'key': '3c7ec65347714db6b0a20713d10b51ef',
+        'key': '秘密',
         'info': msg,
         'userid': 'Eternal',
     }
